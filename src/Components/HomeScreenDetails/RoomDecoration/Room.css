@@ -1,0 +1,58 @@
+.roomDecoration{
+  width: 93%;  
+  margin:  auto;
+  padding: 30px 2%;
+  margin-top: 30px;
+  border-radius: 4px;
+  box-shadow: var(--boxshadow);
+}
+
+
+.roomDecoration
+.seller1 button.sc-bdfBQB.khvUfi.rec.rec-arrow.rec.rec-arrow-left {
+    position: absolute !important;
+    left: 3.4% !important;
+    background: rgb(219, 213, 213 , 0.7) !important;
+    z-index: 12 !important;
+}
+
+.roomDecoration .seller1 button.sc-bdfBQB.eRmJbc.rec.rec-arrow.rec.rec-arrow-left {
+    position: absolute !important;
+    left: 3.4% !important;
+    background: rgb(219, 213, 213 , 0.7) !important;
+    z-index: 12 !important;
+}
+
+.roomDecoration .seller1 button.sc-bdfBQB.eRmJbc.rec.rec-arrow.rec.rec-arrow-right {
+    position: absolute !important;
+    right:3.4% !important;
+    z-index: 12 !important;
+    background: rgb(219, 213, 213 , 0.7) !important;
+}
+
+.roomDecoration .seller1 button.sc-bdfBQB.khvUfi.rec.rec-arrow.rec.rec-arrow-right {
+    position: absolute !important;
+    right:3.4% !important;
+    z-index: 12 !important;
+    background: rgb(219, 213, 213 , 0.7) !important;
+}
+
+.roomDecoration .seller1 button.sc-bdfBQB.buNJCv.rec.rec-arrow.rec.rec-arrow-left {
+    position: absolute;
+    left: 3.4% !important;
+}
+
+.roomDecoration .seller1 button.sc-bdfBQB.buPiXl.rec.rec-arrow.rec.rec-arrow-left {
+    position: absolute;
+    left: 3.4% !important;
+}
+
+.roomDecoration .seller1 button.sc-bdfBQB.buPiXl.rec.rec-arrow.rec.rec-arrow-right {
+    position: absolute;
+    right: 3.4% !important;
+}
+
+.roomDecoration .seller1 button.sc-bdfBQB.buNJCv.rec.rec-arrow.rec.rec-arrow-right {
+    position: absolute;
+    right: 3.4% !important;
+}

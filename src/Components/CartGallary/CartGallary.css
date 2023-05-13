@@ -1,0 +1,38 @@
+/* .gallary {
+  height:auto;
+  width: 450px !important;
+ padding: 5px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    margin-top: 30px;
+}
+.carousel .thumb {
+  height: 65px;
+  margin: 2px;
+  padding-bottom: 4px;
+}
+.carousel .slide img {
+  width: 100%;
+ height: 450px;
+  padding: 0px !important;
+  border: 0;
+  
+  
+}
+.cartShow {
+  width: 500px;
+  margin-left: -7px !important;
+}
+
+.carousel .thumb img {
+  vertical-align: top;
+  width: 80px!important;
+  object-fit: contain;
+}
+.carousel .thumbs-wrapper {
+  margin: 20px;
+ 
+} */

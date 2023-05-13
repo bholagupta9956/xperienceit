@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71" height="68" viewBox="0 0 71 68">
+  <defs>
+    <clipPath id="clip-yt">
+      <rect width="71" height="68"/>
+    </clipPath>
+  </defs>
+  <g id="yt" clip-path="url(#clip-yt)">
+    <g id="Group_1816" data-name="Group 1816" transform="translate(-335 -5122)">
+      <g id="Group_520" data-name="Group 520">
+        <g id="Ellipse_339" data-name="Ellipse 339" transform="translate(346 5131)" fill="none" stroke="#fff" stroke-width="2">
+          <circle cx="25" cy="25" r="25" stroke="none"/>
+          <circle cx="25" cy="25" r="24" fill="none"/>
+        </g>
+        <path id="youtube" d="M22.2-3.6a2.84,2.84,0,0,0-2-2c-1.774-.485-8.871-.485-8.871-.485s-7.1,0-8.87.467a2.9,2.9,0,0,0-2,2.017A29.928,29.928,0,0,0,0,1.855,29.818,29.818,0,0,0,.468,7.308a2.841,2.841,0,0,0,2,2c1.793.486,8.87.486,8.87.486s7.1,0,8.87-.467a2.84,2.84,0,0,0,2-2,29.937,29.937,0,0,0,.467-5.453A28.409,28.409,0,0,0,22.2-3.6ZM9.077,5.253v-6.8l5.9,3.4Zm0,0" transform="translate(360 5154.082)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

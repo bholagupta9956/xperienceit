@@ -1,0 +1,86 @@
+.tour-pack-slider .title-col {
+    display: flex;
+    width: 100%;
+}
+.tour-pack-slider .title-col h2 {
+    font-weight: 400;
+}
+.tour-pack-slider .more-btn {
+    display: flex;
+    width: 30%;
+    justify-content: end;
+}
+.tour-pack-slider button.btn.more-btn {
+    background: rgb(28, 25, 86);
+    color: #fff;
+    text-align: center !important;
+    display: block;
+    padding: 0px 0px !important;
+    width: 120px;
+}
+.tour-pack-slider  .title-col h2 span {
+    color: #1c1956;
+    font-weight: 600;
+}
+.tour-pack-slider  .title-col h2 {
+    font-weight: 400;
+}
+.tour-pack-slider  .title-col h2 {
+    width: 70%;
+    font-size: 28px;
+}
+.tour-section-slider .container-fluid.common-container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.tour-section-slider .more-btn svg {
+    margin-left: 7px;
+    position: relative;
+    top: -2px;
+}
+.tour-pack-slider .details {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-image: linear-gradient(#06060600, #1c1956d4);
+    padding-top: 85px;
+    padding-bottom: 20px;
+}
+
+.tour-pack-slider button.owl-prev {
+    position: absolute;
+    left: 10px;
+    top: 40%;
+}
+.tour-pack-slider button.owl-next {
+    position: absolute;
+    right: 10px;
+    top: 40%;
+}
+.tour-pack-slider h3 {
+    font-family: var(--pacifico);
+    font-size: 27px;
+}
+.tour-pack-slider .package-col h2 {
+    font-weight: 700;
+    font-size: 32px;
+}
+.package-section-slider button.btn.more-btn:hover {
+    background: #e5c556;
+}
+.tour-section-slider .container-fluid.common-container {
+    padding-top: 0px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .tour-pack-slider .title-col h2 {
+        font-size: 20px;
+    }
+    .tour-section-slider .container-fluid.common-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

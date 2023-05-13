@@ -1,0 +1,89 @@
+.strimg{
+   display: flex; justify-content: center;
+}
+.why_chhose_us_section .whoose_us_box .icon img {
+   width: 100%;
+   height: 100%;
+}
+.whychoose-icons{
+    margin:auto;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 28px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 0px 4px;
+    margin-bottom: 25px;
+   
+}
+.why_chhose_us_section .choose-us-col {
+    padding: 20px;
+}
+.why_chhose_us_section h2 {
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    color:rgb(28, 25, 86);
+    font-family: var(--pacifico);
+}
+.why_chhose_us_section .what_we_offer_box {
+    padding: 20px 40px;
+}
+.why_chhose_us_section .what_we_offer_box h2 {
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-weight: 600; 
+    font-family: unset;
+    color: #d1a922;
+    text-transform: capitalize;
+}
+.why_chhose_us_section.container {
+    padding-bottom: 0px;
+}
+.why_chhose_us_section.container {
+    position: relative;
+    overflow: hidden;
+    /* padding-bottom: 180px; */
+}
+.girlsballoon div {
+    float: right !important;
+    text-align: right;
+}
+.girlsballoon {
+    position: relative;
+    bottom: -27px;
+}
+.girlsballoon img {
+    max-width: 168px;
+}
+
+@media only screen and (max-width: 600px) { 
+    .why_chhose_us_section .what_we_offer_box {
+        padding: 20px 10px;
+    }
+    .what_we_offer_box p {
+        font-size: 15px;
+    }
+    .why_chhose_us_section.container h5 {
+        font-size: 17px;
+    }
+    .what_we_offer_box {
+        text-align: justify;
+    }
+    .girlsballoon {
+        position: relative;
+        margin-bottom: -25px;
+    }
+    .why_chhose_us_section h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
+    .why_chhose_us_section .what_we_offer_box {
+        padding: 20px 15px 0px;
+    }
+    .footer_section .footer_col.app_img img {
+        width: 181px !important;
+        margin-left: -7px;
+    }
+}

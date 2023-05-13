@@ -1,0 +1,252 @@
+/* here we will style the footer part of the project */
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 300px;
+  padding: 65px 0px;
+  background: url("./FooterImages/Artboard.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 110px;
+}
+
+.footer_left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+}
+
+.footer_col1 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+ 
+  align-items: center;
+}
+
+.footer_col1 h4 {
+  font-size: 23px;
+  color: white;
+  font-family: "primary";
+}
+
+.footer_col2 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_col1_media {
+  display: flex;
+}
+
+.footer_col1_media img {
+  width: 56px;
+}
+
+.footer_col1 span {
+  font-size: 14px;
+  color: white;
+  margin-top: 19px;
+  font-family: "primary";
+}
+
+.footer_col2 h4 {
+  color: white;
+  font-size: 23px;
+  margin-bottom: 9px;
+  font-family: "primary";
+}
+
+.footer_col2_text {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  margin-left: -35px;
+}
+
+.footer_col2_text h6 {
+  font-size: 14px;
+  color: white;
+  font-weight: 300;
+  line-height: 18px;
+  font-family: "primary";
+}
+
+.footer_col3 {
+  width: 60%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer_col4 {
+  width: 40%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer_col3 h4 {
+  color: white;
+  font-size: 23px;
+  margin-bottom: 10px;
+  font-family: "primary";
+}
+
+.footer_col3_contact {
+  display: flex;
+  margin: 16px 0px;
+  margin-left: -3px;
+}
+.footer_col3_email {
+  display: flex;
+  justify-content: left;
+  margin-left: -3px;
+}
+
+.footer_col3_contact h5 {
+  color: white;
+  font-size: 20px;
+  font-family: "primary";
+}
+
+.footer_col3_email span {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 2px;
+  font-family: "primary";
+}
+.footer_col4 {
+  margin-top: -5px;
+}
+
+.footer_col4 img {
+  width: 190px;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "primary";
+}
+
+.footer_girls {
+  position: absolute;
+  top: -70%;
+  right: 20%;
+}
+
+.footer_balloon {
+  position: absolute;
+  top: -62%;
+  right: 7%;
+}
+
+/* adding media query to the project  */
+/* 
+@media only screen and (max-width: 1025px) {
+  .footer {
+    flex-direction: column;
+    height: 100% !important;
+    margin-top: 140px;
+  }
+
+  .footer_left {
+    width: 100%;
+  }
+
+  .footer_right {
+    margin-top: 45px;
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .footer_girls {
+    top: -43%;
+    right: 15%;
+  }
+
+  .footer_col1 {
+    width: 50% !important;
+  }
+
+  .footer_col2 {
+    width: 50% !important;
+    padding-left: 5%;
+  }
+
+  .footer_balloon {
+    top: -40%;
+    right: -4%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer_balloon {
+    left: 50%;
+  }
+}
+
+
+@media only screen and (max-width: 360px) {
+  .footer_col1_media img {
+    width: 40px;
+  }
+  .footer_col1 h4 {
+    font-size: 20px;
+   }
+   footer_col2 h4 {
+    font-size: 20px;
+    }
+    .footer_col3 h4 {
+     font-size: 20px;
+      margin-left: 10px;
+    }
+    .footer_col3_contact img{
+      margin-left: 10px;
+      width:25px !important;
+    }
+    .footer_col3_contact h5{
+      font-size: 14px;
+      margin-top: 3px
+    }
+    .footer_col4 img {
+      width: 130px;
+  }
+  .footer_col3_email img{
+    width: 25px !important;
+    margin-left: 10px;
+  }
+  .footer_col3_email span{
+    margin-top: 0px;
+  }
+  .footer_col3_email {
+   
+    margin-top: -10px;
+    
+}
+.copyright { 
+  text-align: center;
+}
+} */

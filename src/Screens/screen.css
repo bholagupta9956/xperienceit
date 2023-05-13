@@ -1,0 +1,93 @@
+.BirthdayScreen .footer_girls{
+    display: none;
+}
+
+.BirthdayScreen .footer{
+    margin-top: 50px !important;
+}
+.productScreen .footer_girls{
+    display: none;
+}
+
+.productScreen .footer{
+    margin-top: -25px !important;
+}
+
+@media only screen and (max-width : 1025px){
+    .homeScreen{
+        transform: translateX(0%);
+    }
+}
+
+
+.homeScreen{
+    margin-right: 0px !important;
+    overflow: hidden;
+}
+
+.BirthdayScreen{
+    margin-right: 0px !important;
+    overflow: hidden;
+}
+
+.birthdayGifts{
+    width: 100% !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    overflow: hidden;
+}
+.Aniversary_screen
+{
+    width: 100% !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    overflow: hidden;
+}
+.Category_screen{
+    width: 100% !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    overflow: hidden;
+}
+.AllPackges_Screen{
+    width: 100% !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    overflow: hidden; 
+}
+.AllPkgDetails_Screen{
+    width: 100% !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    overflow: hidden; 
+}
+.productScreens{
+    width: 100% !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    overflow: hidden; 
+}
+.BookingScreens{
+    width: 100% !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    overflow: hidden; 
+}
+.OfferScreens{
+    width: 100% !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    overflow: hidden;   
+}
+.SubCategory_Screens{
+    width: 100% !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    overflow: hidden;  
+}
+.productScreens{
+    width: 100% !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    overflow: hidden;  
+}

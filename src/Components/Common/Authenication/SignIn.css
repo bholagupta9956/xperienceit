@@ -1,0 +1,79 @@
+.signInPage{
+    width: 100%;
+
+}
+
+
+.signIn_input label{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.signIn_input input{
+    margin: 4px 0px;
+   
+    padding: 10px 16px;
+    border: 2px solid rgb(212, 209, 209, 0.7);
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+}
+
+.signIn_input input::placeholder{
+    font-size: 14px;
+}
+
+.signIn_input{
+    width: 78%;
+  
+    margin: auto;
+    display: flex;
+    margin-top:6rem;
+    flex-direction: column;
+}
+.signIn_footer{
+    width: 70%;
+    margin: auto;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.signIn_footer_images img{
+    width: 38px;
+    cursor: pointer;
+}
+.signIn_balloon img{
+    width: 90px;
+}
+
+
+
+.signIn_footer h6{
+    text-align: center;
+}
+.signIn_balloon{
+    position: absolute;
+    bottom: 0px;
+    left: 5%;
+}
+.signIn_footer_images{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    cursor: pointer;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+@media only screen and (max-width: 360px){
+    .auth_balloon img {
+        width: 35px;
+    }
+  }

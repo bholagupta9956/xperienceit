@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71" height="68" viewBox="0 0 71 68">
+  <defs>
+    <clipPath id="clip-Fb">
+      <rect width="71" height="68"/>
+    </clipPath>
+  </defs>
+  <g id="Fb" clip-path="url(#clip-Fb)">
+    <g id="Group_1813" data-name="Group 1813" transform="translate(-146 -5122)">
+      <g id="Ellipse_336" data-name="Ellipse 336" transform="translate(157 5131)" fill="none" stroke="#fff" stroke-width="2">
+        <circle cx="25" cy="25" r="25" stroke="none"/>
+        <circle cx="25" cy="25" r="24" fill="none"/>
+      </g>
+      <path id="facebook_1_" data-name="facebook (1)" d="M16,3.985h2.191V.169A28.292,28.292,0,0,0,15,0C11.837,0,9.673,1.987,9.673,5.639V9H6.187v4.266H9.673V24h4.274V13.267h3.345L17.823,9H13.946V6.062c0-1.233.333-2.077,2.051-2.077Z" transform="translate(168.813 5145)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

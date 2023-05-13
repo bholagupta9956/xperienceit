@@ -1,0 +1,123 @@
+footer.section.footer_section {
+    background: url("./FooterImages/Artboard.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0px 0px;
+}
+.footer_section h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.footer_section .footer_col.quick_links ul {
+    padding-left: 0px;
+    list-style: none;
+    color: #fff;
+}
+.footer_section .footer_col.quick_links li a {
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    display: block;
+}
+.copy_right_area {
+    color: #fff;
+    text-align: center;
+    background: #00000047;
+    padding: 5px;
+}
+footer.section.footer_section .container {
+    padding-bottom: 55px;
+}
+.footer_section .footer_col.app_img img {
+    width: 100%;
+}
+.footer_section .footer_col1_media {
+    margin-left: -7px;
+    display: flex;
+}
+.footer_col.social_media a {
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    margin-top: 12px;
+    display: block;
+}
+.footer_section a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+.footer_col3_contact a:hover{
+color: #e1be48;
+}
+.footer_col3_email a:hover{
+    color: #e1be48;
+}
+.footer_col3_whatsapp a:hover{
+    color: #e1be48;
+}
+.footer_girl {
+    position: absolute;
+    top: -70%;
+    right: 20%;
+  }
+  
+  .footer_ballun {
+    position: absolute;
+    top: -62%;
+    right: 7%;
+  }
+  .tnc {
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+.tnc:hover{
+    color: white!important;
+}
+@media only screen and (max-width: 600px) {
+    .footer_col.app_img img {
+        width: 145px !important;
+        margin-top: 20px;
+    }
+    footer.section.footer_section {
+        padding: 40px 10px 0px;
+    }
+    footer.section.footer_section .container {
+        padding-bottom: 40px;
+    }
+    .footer_section .footer_col {
+        margin-bottom: 29px;
+    }
+    footer.section.footer_section .footer_col.app_img {
+        margin-bottom: 0px;
+    }
+    .footer_section h4 {
+        font-size: 23px; 
+    }
+    .footer_section .footer_col.quick_links li a {
+        font-size: 15px; 
+    }
+    .footer_section a {
+        font-size: 15px; 
+    }
+    .footer_section .footer_col3_contact {
+        margin: 7px 0px;
+    }
+    .copy_right_area p.text {
+        font-size: 14px;
+    }
+  }
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+    .footer_col1_media a img {
+        width: 50px;
+    }
+}

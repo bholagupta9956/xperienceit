@@ -1,0 +1,89 @@
+.best-sellar-bg-color {
+  background-color: #f9f9f9;
+}
+.best-sellar-container {
+  margin: auto;
+  width: 98%;
+  padding: 5px;
+}
+
+.home-page-tag-category-main-tag {
+  padding: 10px;
+  height: 220px;
+  max-width: 600px;
+  position: relative;
+}
+.best-sellar-boxes {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  inset: 0px;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 5px !important;
+}
+.bestsellarImg {
+  position: absolute;
+  inset: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  border: none;
+  margin: auto;
+  display: block;
+  width: 0px;
+  height: 0px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.home-page-tag-category-main-tag img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  position: relative !important;
+}
+.material-shadow-card-4 {
+  box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+}
+.best-sellarPackage-name {
+  width: 60%;
+  position: absolute;
+  top: 15px;
+  color: white;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  z-index: 99 !important;
+  margin: 0px auto;
+}
+.best-sellarPackage-name h6{
+font-size: 22px;
+}
+@media only screen and (max-width: 600px) {
+  .home-page-tag-category-main-tag {
+    padding: 5px;
+    height: 120px;
+    max-width: 600px;
+    position: relative;
+  }
+ 
+  .best-sellarPackage-name h6{
+    font-size: 12px;
+    }
+}
+@media (min-width: 601px) and (max-width: 991px) {
+  .home-page-tag-category-main-tag {
+    padding: 5px;
+    height: 130px;
+    max-width: 600px;
+    position: relative;
+  }
+  .best-sellarPackage-name h6{
+    font-size: 14px;
+    }
+    .bestsellarImg {
+      inset: unset;
+    }
+}

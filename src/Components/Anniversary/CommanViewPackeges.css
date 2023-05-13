@@ -1,0 +1,207 @@
+@font-face {
+  font-family: "NeuvaStd";
+  src: local("fonts"), url("../../fonts//NuevaStd-Bold.otf") format("truetype");
+  font-weight: medium;
+}
+.dinnerTaskbar {
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  overflow: hidden;
+  margin-bottom: 12%;
+}
+
+.dinnerTaskbar h6 {
+  color: var(--gray);
+  margin: 8px 0px;
+  font-size: 20px;
+}
+
+/* .dinner_taskbar_box {
+  width: 100%;
+  margin: auto;
+  margin: 10px 0px;
+  position: relative;
+
+  padding-top: 11px;
+  box-shadow: var(--boxshadow);
+} */
+
+.dinner_gifts {
+  width: 97%;
+  margin: auto;
+  margin: 30px;
+  padding: 25px 0px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  box-shadow: var(--boxshadow);
+  margin-left: 1.4%;
+}
+
+.dinnerCard {
+  width: 275px;
+  height: 390px;
+  border-radius: 8px;
+  /* padding: 7px 7px 0px 7px; */
+  box-shadow: var(--boxshadow);
+  position: relative;
+  padding: 7px 7px 0;
+  margin: 15px 15px 45px 19.3px;
+  /* margin-bottom: 45px; */
+
+  overflow: hidden;
+  transition: 0.3s !important;
+}
+.dinnerCard:hover {
+  transform: scale(1.05) !important;
+}
+
+.dinnerCard img {
+  width: 100%;
+  height:100%;
+  
+}
+
+.dinnerCard_box {
+  width: 100%;
+  padding: 0px 2%;
+  margin: auto;
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+}
+.dinner_box_row1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dinner_box_row1 h6 {
+  font-size: 14px;
+  color: var(--gray2);
+  margin-top: -0.1px;
+}
+
+.dinner_box_row1_star {
+  background: #ff9212;
+  display: flex;
+  padding: 5px 5px;
+  border-radius: 3px;
+  height: 24px;
+  align-items: center;
+  margin-top: -3px;
+}
+
+.dinner_box_row1_star span {
+  color: white;
+  font-size: 13px;
+  margin-top: -2px;
+}
+
+.dinner_box_row1_star img {
+  width: 14px;
+  margin-left: 5px;
+  margin-top: -3px;
+}
+
+.dinnerCard .card_info_2 {
+  margin-top: 14px;
+}
+
+.dinner_box_row2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.dinner_box_row2 li span {
+  font-size: 18px;
+  font-family: fantasy;
+  font-weight: 500;
+  color: var(--pink);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.dinner_box_row2 .pink_text {
+  color: var(--pink);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.dinner_box_row2 li h5 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 7px;
+  margin-top: 5px;
+}
+
+.dinner_box_row2 .text2 {
+  list-style: none;
+  display: flex;
+  margin-left: 12px;
+  color: var(--gray);
+}
+
+.dinner_box_row2 .text2 span {
+  color: var(--gray);
+  font-size: 15px;
+  margin-top: 4px;
+}
+
+.dinner_box_row2 .text2 h6 {
+  font-size: 12px;
+  text-decoration: line-through;
+  margin-left: 8px;
+}
+
+.dinner_box_row2 .text3 {
+  color: green;
+  margin-left: 12px;
+  font-size: 13px;
+}
+
+.dinnerCard .card_info_btn {
+  position: absolute;
+  border-top-left-radius: 8px;
+  right: 0px;
+  bottom: 0px;
+  color: white;
+  padding: 6px 20px;
+  font-size: 14px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: -2px;
+  margin-right: 0px;
+  border-bottom-right-radius: 8px;
+  background: linear-gradient(135deg, #eccf66, #c59402);
+}
+.dcard_img{
+  height: 250px!important;
+}
+@media only screen and (max-width: 820px) {
+  .dinner_gifts {
+    width: 98%;
+    margin-left: 1%;
+  }
+  .dinnerCard {
+    margin-left: 18px;
+    width: 245px;
+    margin-right: -1px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .dinner_gifts {
+    width: 88%;
+    margin-left: 6%;
+    margin-bottom: 8%;
+  }
+  .dinnerCard {
+    width: 267px;
+    margin-left: 7%;
+  }
+}

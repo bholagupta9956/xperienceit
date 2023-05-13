@@ -1,0 +1,48 @@
+.blogsCont {
+  background-color: #f5f2ed;
+  font-family: "Poppins", sans-serif !important;
+  padding: 20px 20px;
+ 
+}
+
+.blogLogo {
+  width: 150px;
+  height: 150px;
+}
+.blogCont {
+  width: 90%;
+}
+
+.blogBtn {
+  padding: 4px 8px;
+  border-radius: 6px;
+  background-color: #e04f67;
+  color: white;
+  width: 140px;
+  margin: 8px 12px;
+  border: none;
+}
+
+.postingCrdCont {
+  margin-bottom: 2.5rem;
+}
+
+.blogsInput {
+  border-radius: 2px !important;
+}
+
+.blogsright{
+    align-items: flex-end;
+}
+
+@media only screen and (max-width : 900px) {
+  .blogsright {
+    align-items: center
+  }
+}
+
+@media only screen and (max-width : 600px){
+    .blogsCont{
+        padding: 20px 0px;
+    }
+}

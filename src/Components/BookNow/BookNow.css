@@ -1,0 +1,359 @@
+.inner-booking-section.common-container.booknowContainer {
+  padding: 0px!important;
+}
+.container-fluid.booknow {
+  box-shadow: none;
+}
+.productPart2 {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  padding: 0px;
+  justify-content: space-between;
+}
+button.btn:focus {
+  box-shadow: none;
+}
+a.whatsApplogo {
+  color: green;
+  cursor: pointer;
+}
+a.whatsAppLink {
+  color: var(--gray2);
+  text-decoration: none;
+  cursor: pointer;
+}
+.form2 input {
+  height: 14px;
+  width: 14px;
+  cursor: pointer;
+}
+.form2 label {
+  margin-left: 5px;
+  cursor: pointer;
+}
+.productPart2 h5 {
+  color: var(--gray2);
+  font-size: 16px;
+  margin-bottom: 26px;
+}
+
+.product_cancellation {
+  width: 100%;
+  margin: 30px 0px;
+  padding: 30px 30px;
+  box-shadow: var(--boxshadow);
+  padding-bottom: 9px;
+  border-radius: 2px;
+}
+
+.product_cancellation h4 {
+  width: 100%;
+  font-size: 22px;
+  color: var(--black);
+  margin-bottom: 20px;
+  font-weight: 600;
+  margin-left: 0px;
+  padding: 15px 12px 11px 4px;
+  border-bottom: 1.5px solid rgba(226, 226, 226, 0.4);
+  padding-bottom: 15px;
+}
+
+.product_cancellation_text {
+  display: flex;
+  margin-left: 18px;
+}
+
+.product_About {
+  width: 100%;
+  height: 100px;
+  box-shadow: rgb(0 0 0 / 9%) 0px 1px 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+}
+.product_About h5 {
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+/* styling the right section
+ */
+
+.product_cancellation .bookingForm {
+  margin-left: 0px;
+}
+.bookingForm input {
+  box-shadow: none;
+  outline: none;
+  height: 45px;
+}
+.bookingForm input :hover {
+  outline: none;
+  -webkit-appearance: none;
+}
+
+/* Arguments */
+
+.product_arrngmgnt {
+  width: 100%;
+  box-shadow: var(--boxshadow);
+  border-radius: 3px;
+}
+
+.product_details {
+  width: 100%;
+  min-height: 60px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e0e0e0;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 5px 0px;
+}
+
+.product_date {
+  width: 30%;
+text-align: center;
+}
+.product_date span {
+  font-size: 25px;
+  text-align: center;
+}
+.product_date h6 {
+    color: gray;
+    font-weight: 400;
+  }
+  
+
+.product_times {
+  width: 45%;
+ 
+  text-align: center;
+}
+.product_times span {
+  font-size: 25px;
+  text-align: center;
+}
+.product_times h6 {
+    color: gray;
+    font-weight: 400;
+  }
+.product_edit {
+  width: 30%;
+ 
+ 
+  text-align: center;
+  align-items: center;
+}
+.product_edit span {
+  font-size: 25px;
+  text-align: center;
+}
+.product_edit h6{
+    color: gray;
+    font-weight: 400; 
+    cursor: pointer;
+}
+.customdetails svg {
+  cursor: pointer;
+}
+.bookingimgdetails {
+  width: 100%;
+  margin: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.booksingimg1 {
+    width:20%;
+    border-radius: 5px;
+    height: 80px;  
+   
+}
+.booksingimg2 {
+    width: 55%;
+    height: 80px; 
+    
+    align-items: center;
+    
+}
+.booksingimg2 span{
+font-weight: 400;
+color:grey;
+/* display: flex;
+flex-wrap: wrap; */
+font-weight: 600;
+}
+.dilevcharge1 span {
+  font-size: 16px;
+  font-weight: 600;
+}
+.booksingimg3 {
+    width: 26%;
+    height: 80px; 
+    /* display: flex; */
+    align-items: center;
+    
+}
+.booksingimg3 span{
+margin-left: 55px;
+float: right;
+font-weight: 600;
+}
+.delaivery {
+  width: 100%;
+  margin: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customdetails {
+  width: 100%;
+  margin: 15px 0px;
+  border-bottom: 1px solid gray;
+  font-size: 16px;
+  font-weight: 600;
+}
+.customtotal {
+  width: 100%;
+  margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.customtotal1 {
+    margin-top: -20px;
+    font-size: 16px;
+  font-weight: 600;
+}
+.checkout {
+  width: 100%;
+  height: 50px;
+  margin: 25px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.ckBtn{
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  border: none;
+  font-size: 20px;
+  background-color:#15124b;
+}
+.ckBtn:hover{
+  background-color: #15124b;
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  .productPart2 {
+    flex-direction: column;
+  }
+}
+.booking_step_left .product_cancellation {
+  padding-top: 0px !important;
+  margin-top: 0px;
+}
+.booking_step_right .product_arrngmgnt {
+  margin-top: 0px; 
+}
+.booking_step_left {
+  padding: 10px;
+}
+.booking_step_right {
+  padding: 10px;
+}
+.productPart2.booking-section .form2 p {
+  border-bottom: 1.5px solid rgba(226, 226, 226, 0.4);
+  padding-bottom: 15px;
+  font-weight: 500;
+}
+.booking_step_right .product_arrngmgnt h5 {
+  width: 100%;
+  font-size: 22px;
+  color: var(--black);
+  margin-bottom: 20px;
+  font-weight: 600;
+  margin-left: 0px;
+  padding: 15px 12px 11px 4px;
+  border-bottom: 1.5px solid rgba(226, 226, 226, 0.4);
+  padding-bottom: 15px;
+}
+.booking_step_right .product_arrngmgnt {
+  padding: 0px 30px;
+}
+.booking_step_right .product_arrngmgnt {
+  padding-bottom: 10px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .product_cancellation {
+      width: 100%;
+      margin: 30px 0px;
+      padding: 15px 15px;
+    }
+    .productPart2.booking-section label {
+        font-size: 11px;
+        font-weight: 500;
+        margin-bottom: 0px;
+    }
+    .booking_step_left {
+        padding: 0px;
+    }
+    .product_About h5 {
+        margin-bottom: 0px;
+        font-size: 16px;
+        text-align: left;
+    }
+    .product_About {
+        padding: 15px 14px 6px;
+        height: auto;
+    }
+    .booking_step_right {
+        padding: 0px;
+        margin-top: 25px;
+    }
+    .booking_step_right .product_arrngmgnt {
+        padding: 0px 15px;
+    }
+    .booksingimg1 {
+        width: 30%;
+        border-radius: 5px;
+        height: 80px;
+    }
+    .booksingimg2 {
+        width: 50%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+    .booksingimg3 span {
+        margin-left: 5px;
+        font-weight: 600;
+        padding-top: 6px;
+    }
+    .booking_step_right .product_details h6 {
+        font-size: 14px !important;
+    }
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .product_About h5 {
+      margin-bottom: 0px;
+      font-size: 17px;
+  }
+  .product_About {
+    width: 100%;
+    height: auto;
+    padding: 20px 15px;
+  }
+}

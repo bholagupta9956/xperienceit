@@ -1,0 +1,298 @@
+.bestseller-section img {
+  width: 100%;
+}
+
+.seller_box1 img {
+  width: 100%;
+}
+.seller_box2 img {
+  width: 100%;
+}
+.seller_box3 img {
+  width: 100%;
+}
+.seller_box1 button {
+  width: 100%;
+  background: var(--pink);
+  color: #fff;
+  font-size: 20px;
+  padding: 7.5px 6px;
+  border: none;
+  font-weight: 300 !important;
+  outline: none;
+  border-radius: 5px;
+}
+.seller_box3 button {
+  width: 100%;
+  background: rgb(255, 182, 72);
+  color: #fff;
+  font-size: 20px;
+  padding: 7.5px 6px;
+  border: none;
+  font-weight: 300 !important;
+  outline: none;
+  border-radius: 5px;
+}
+.seller_box2 .content_aria {
+  z-index: 1;
+  background: var(--blue);
+  color: #fff;
+  opacity: 0.8;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  padding-left: 54%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.seller_box2 img {
+  position: absolute;
+  width: 401px;
+  bottom: 0;
+  z-index: 2;
+  left: -37px;
+}
+.seller_box2 .content_aria {
+  z-index: 1;
+  background: var(--blue);
+  color: #fff;
+  opacity: 0.8;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  position: absolute;
+  bottom: 0;
+  width: 63%;
+  padding-left: 38%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 97px;
+}
+
+.seller_box2 .content_aria h3 {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.seller_box2 .content_aria h5 {
+  text-transform: capitalize;
+}
+.bestseller-section button {
+  color: #fff;
+  font-weight: 600 !important;
+}
+.bestseller-section .seller_box1 button {
+  border-radius: 0px 5px 10px 0px;
+}
+.bestseller-section .seller_box3 button {
+  border-radius: 5px 0px 0px 10px;
+}
+.bestseller-section .seller_box1 button:hover {
+  background: rgb(255, 182, 72);
+}
+.bestseller-section .seller_box3 button:hover {
+  background: var(--pink);
+}
+.bestseller-section {
+  box-shadow: rgb(33 35 38 / 10%) 0px 10px 10px -10px;
+  /* box-shadow: 0 8px 12px -5px rgba(160,157,157,.6)!important; */
+}
+.bestseller-section {
+  background-color: #f9f9f9;
+}
+.main-seller-section {
+  /* margin: 10px auto 30px; */
+  background-color: #f9f9f9;
+}
+.main-seller-section {
+  padding-bottom: 30px;
+}
+
+.bestseller_heading {
+  padding: 12px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.ourBestSellar {
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ourbestSeller {
+    padding: 25px 0px!important;
+  }
+  .seller_box3 img {
+    height: 200px;
+  }
+  .offer-section-slider.common-container.ourbestSeller {
+    padding: 25px 0px !important;
+  }
+  .seller_box3 button {
+    position: relative;
+    top: 25px;
+  }
+  .seller_box2 {
+    position: relative;
+    top: 25px;
+  }
+  .seller_box2 .content_aria {
+    z-index: 3;
+    background: var(--blue);
+    color: #fff;
+    opacity: 1;
+    border-radius: 5px 1px 0px 10px !important;
+    position: relative;
+    bottom: 14px;
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    text-align: center;
+    min-height: 45px;
+    align-items: center;
+  }
+  .seller_box2 img {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    z-index: 2;
+    left: 0px;
+  }
+  .seller_box2 .content_aria div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .bestseller-section .seller_box1 button {
+    border-radius: 0px 5px 10px 0px;
+    font-size: 33px;
+    padding: 0px;
+    min-height: 56px;
+  }
+  .seller_box2 .content_aria h3 {
+    padding-top: 4px;
+    font-weight: 100;
+  }
+  .bestseller-section .seller_box3 button {
+    font-size: 33px;
+    padding: 0px;
+    min-height: 46px;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .seller_box2 .content_aria h5 {
+    margin-bottom: 0px;
+  }
+  .seller_box2 img {
+    max-height: 240px;
+    object-fit: cover;
+  }
+  .seller_box1 img {
+    max-height: 250px;
+    object-fit: cover;
+    margin-top: -2px;
+  }
+  .seller_box2 .content_aria h3 {
+    font-size: 26px;
+    font-weight: 500;
+  }
+  .seller_box2 .content_aria h3 {
+    font-weight: 100px;
+  }
+  .seller_box1 {
+    margin-top: 12px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .seller_box2 .content_aria {
+    z-index: 1;
+    background: var(--blue);
+    color: #fff;
+    opacity: 0.8;
+    border-radius: 0px !important;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    text-align: center;
+    min-height: 56px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .seller_box2 img {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    z-index: 2;
+    left: 0px;
+  }
+  .seller_box2 .content_aria div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .bestseller-section .seller_box1 button {
+    border-radius: 0px;
+    font-size: 20px;
+    padding: 0px;
+    min-height: 56px;
+    margin-bottom: 20px;
+  }
+  .seller_box2 .content_aria h3 {
+    padding-top: 4px;
+  }
+  .bestseller-section .seller_box3 button {
+    font-size: 20px;
+    padding: 0px;
+    min-height: 56px;
+    border-radius: 0px;
+    margin-bottom: 20px;
+  }
+  .seller_box2 .content_aria h5 {
+    margin-bottom: 0px;
+  }
+  .seller_box2 img {
+    max-height: 250px;
+    object-fit: cover;
+  }
+  .seller_box1 img {
+    max-height: 250px;
+    object-fit: cover;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .seller_box2 img {
+    width: 286px;
+    height: 200px;
+    left: -37px;
+  }
+  .seller_box2 .content_aria {
+    bottom: 0;
+    width: 63%;
+    padding-left: 38%;
+    padding-top: 0px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    margin-left: 97px;
+  }
+  .seller_box2 .content_aria h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+  .seller_box2 .content_aria h5 {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 810px) and (max-width: 920px) {
+  .seller_box2 img {
+    max-height: 250px!important;
+}
+}

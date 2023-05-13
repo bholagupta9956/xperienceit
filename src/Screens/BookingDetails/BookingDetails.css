@@ -1,0 +1,199 @@
+.arrangmentsIcon ul li {
+  list-style: none;
+  position: relative;
+}
+.arrangmentsIcon ul li::after {
+  content: "\2713";
+  position: absolute;
+  left: -25px;
+  top: 2px;
+  font-family: Garamond, serif;
+  font-size: 16px;
+  color: #5ee70f;
+  font-weight: 800;
+  bottom: 3px;
+}
+
+.cancelation-policy {
+  min-height: 600px;
+  width: 80%;
+  background-color: white;
+  padding: 20px;
+  margin: auto;
+  border-radius: 5px;
+}
+.cancel_input {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.cancel_policy_input_box {
+  width: 100%;
+  height: 40px;
+  margin: 15px;
+
+  display: flex;
+}
+span.cancel-cross {
+  cursor: pointer;
+}
+.cancel_policy_input_box input {
+  height: 16px;
+  width: 16px;
+  margin-top: 11px;
+  margin-left: 2px;
+  display: flex;
+  cursor: pointer;
+}
+.canceltext {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 6px;
+  cursor: pointer;
+  margin-left: 3px;
+}
+.owl-carousel {
+  z-index: -1px !important;
+}
+.bokkingdtailstbner {
+  z-index: -1;
+}
+.Cancel-Policy-heading h4 {
+  font-size: 24px;
+  padding: 5px;
+  font-weight: 600;
+}
+.Cancel-Policy-heading {
+  display: flex;
+  justify-content: space-between;
+}
+.bokking-pakage-details {
+  display: flex;
+  justify-content: space-between;
+}
+.bokking-pakage-details span {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 500;
+  font-size: 16px;
+}
+.booking-pakage-details-price {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.booking-pakage-details-price span {
+  font-weight: 700;
+  font-size: 18px;
+  color: #15124b;
+  font-family: sans-serif;
+}
+.booking-pakages-time-slot {
+  display: flex;
+  justify-content: space-between;
+}
+.booking-pakages-time-slot span {
+  font-weight: 500;
+  font-size: 16px;
+}
+.customdetails svg {
+  cursor: pointer;
+}
+.customdetails {
+  width: 100%;
+  margin: 15px 0px;
+  border-bottom: none !important;
+  font-size: 16px;
+  font-weight: 500 !important;
+}
+.bkngDetails {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.bkngDetails2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+h6.bkngTitle {
+  width: 40%;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+h6.bkngQnty {
+  width: 20%;
+  text-align: center;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+h6.bkngPrice {
+  width: 40%;
+  text-align: right;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+.bookings-details-card {
+  border: 1px solid rgba(226, 226, 226, 0.4);
+}
+h6.Bookig-details-heading {
+  padding-top: 10px;
+}
+.BokkingDetails {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  font-size: 16px;
+}
+.text {
+  display: inline;
+  width: 100%;
+}
+span.short-text h6 ul {
+  margin-left: 30px;
+}
+.reactplayer {
+  width: 852px !important;
+}
+.read-or-hide {
+  color: rgb(192, 192, 192);
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .reference {
+    display: none;
+  }
+  .booking-pakages-time-slot span {
+    font-weight: 500;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .bokking-pakage-details span {
+  
+    font-size: 14px;
+  }
+  h6.bkngTitle {
+   
+    font-size: 14px !important;
+    
+  }
+  h6.bkngQnty {
+  
+    font-size: 14px !important;
+    
+  }
+  h6.bkngPrice {
+   font-size: 14px !important;
+    }
+    .cancelation-policy {
+      width:100%;
+      min-height: 450px;
+      position: relative;
+      top:0px;
+    }
+    .cancel_policy_input_box {
+      margin:5px;
+    }
+}

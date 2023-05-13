@@ -1,0 +1,455 @@
+/* here we will style all the component of the authenication part ; */
+.auth {
+  width: 70%;
+  margin: auto;
+  background: white;
+  height: 100%;
+  min-height: 500px;
+  position: relative;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top: 6px solid var(--pink);
+  top: 40px;
+  z-index: 10001 !important;
+}
+
+.cstBtn button:hover {
+  background-color: var(--pink) !important;
+  color: white;
+}
+
+.auth_logoo {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50% !important;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+.auth_logoo img {
+  width: 80px;
+  height: 80px;
+}
+
+.auth_logo {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50% !important;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+.socialImgCon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+}
+
+img.googleIcon {
+  top: 0px !important;
+  left: 2px !important;
+}
+
+button.kep-login-facebook.metro svg {
+  cursor: pointer;
+  position: relative;
+  right: 16px !important;
+  font-size: 36px !important;
+  bottom: 12px !important;
+}
+
+.auth_logo img {
+  width: 80px;
+
+  height: 80px;
+}
+
+.auth_header {
+  width: 60%;
+  display: flex;
+  margin: 23px auto;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 45px;
+  cursor: pointer;
+}
+
+.auth_header h4 {
+  color: var(--dark-gray);
+  font-size: 20px;
+  padding: 6px 9px;
+}
+
+.auth_input {
+  width: 78%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth_background {
+  position: absolute;
+  top: 6px;
+  left: 0px;
+}
+
+.auth_input label {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.auth_input input {
+  margin: 4px 0px;
+  padding: 10px 16px;
+  border: 2px solid rgb(212, 209, 209, 0.7);
+  border-radius: 4px;
+  outline: none;
+  width: 100%;
+}
+
+.auth_input input::placeholder {
+  font-size: 14px;
+}
+
+.auth_input button {
+  width: 100%;
+  background: var(--pink);
+  color: white;
+  border: none;
+  outline: none;
+  margin: 30px 0px;
+  padding: 12px;
+  font-size: 13px;
+  border-radius: 2px;
+}
+
+.auth_balloon {
+  position: absolute;
+  bottom: 0px;
+  left: 5%;
+}
+
+.auth_balloon img {
+  width: 90px;
+}
+
+.auth_footer {
+  width: 70%;
+  margin: auto;
+  margin: 20px auto;
+}
+
+.auth_footer h6 {
+  text-align: center;
+}
+
+.auth_footer_images {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.auth_footer_images img {
+  width: 38px;
+  cursor: pointer;
+}
+
+.auth_cut {
+  position: absolute;
+  top: 12px;
+  right: 25px;
+  cursor: pointer;
+}
+
+.auth_cut img {
+  width: 14px;
+}
+
+.login {
+  width: 100%;
+  margin-top: -53px;
+}
+
+.back {
+  position: relative;
+
+  left: 16px;
+  font-size: 26px;
+  bottom: 110px;
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* now giving style to the register compnent  */
+
+.register {
+  width: 78%;
+  margin: auto;
+  margin-top: -60px;
+}
+.regBttn {
+  width: 95%;
+  background-color: var(--pink);
+
+  border: none;
+  color: white;
+  border-radius: 3px;
+  text-align: center;
+}
+
+button.regBttn {
+  background-color: var(--pink) !important;
+  color: white;
+}
+
+.register_row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.register_row_col {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.register_row_col label {
+  font-size: 15px;
+}
+
+.register_row_col input {
+  margin-top: -4px;
+  padding: 10px;
+  font-size: 13px;
+  border: 2px solid rgb(212, 209, 209, 0.7);
+  border-radius: 3px;
+}
+.referral {
+  width: 96%;
+}
+
+.referral input {
+  width: 100% !important;
+}
+
+.rgst_btn {
+  display: block;
+  width: 70%;
+  margin: auto;
+  background: var(--pink);
+  color: white;
+  border: none;
+  outline: none;
+  margin-bottom: 35px;
+  margin-top: 25px;
+  padding: 12px;
+  font-size: 13px;
+  border-radius: 2px;
+}
+
+/* css related to otp screen */
+
+.otpScreen {
+  width: 100%;
+  margin-top: 10%;
+}
+.emailPanel {
+  width: 100%;
+  margin-top: 10%;
+}
+
+.otpScreen h4 {
+  text-align: center;
+  margin-top: 48px;
+}
+
+.emailPanel h4 {
+  text-align: center;
+}
+
+.otpScreen .otp_form {
+  margin-top: 18px;
+}
+
+.emailPanel .otp_form {
+  margin-top: 8%;
+}
+
+.errorText {
+  color: red;
+  font-size: 13px;
+  margin-top: 2px;
+}
+
+/* forgate Password */
+.forgate_pass {
+  width: 100%;
+}
+
+.forgate_input label {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.forgate_input input {
+  margin: 4px 0px;
+
+  padding: 10px 16px;
+  border: 2px solid rgb(212, 209, 209, 0.7);
+  border-radius: 4px;
+  outline: none;
+  width: 100%;
+}
+
+.forgate_input input::placeholder {
+  font-size: 14px;
+}
+
+.forgate_input {
+  width: 78%;
+
+  margin: auto;
+  display: flex;
+  margin-top: 6rem;
+  flex-direction: column;
+}
+.forgate_footer {
+  width: 70%;
+  margin: auto;
+  margin: 20px auto;
+}
+
+.forgate_footer_images img {
+  width: 38px;
+}
+.forgate_balloon img {
+  width: 90px;
+}
+
+.forgate_footer {
+  width: 70%;
+  margin: auto;
+  margin: 20px auto;
+}
+
+.forgate_footer h6 {
+  text-align: center;
+}
+.forgate_balloon {
+  position: absolute;
+  bottom: 0px;
+  left: 5%;
+}
+.forgate_footer_images {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.otp_page {
+  cursor: pointer;
+}
+.loginWithOtp {
+  cursor: pointer;
+  margin-left: 50px;
+}
+.LogFor {
+  width: 100%;
+
+  height: 40px;
+}
+.googleEmail {
+  width: 30px;
+}
+.Log {
+  float: left;
+  width: 50%;
+}
+.Forg {
+  float: left;
+  width: 50%;
+  text-align: right;
+}
+.forgotPage {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .auth_balloon img {
+    width: 35px;
+  }
+  .auth_footer_images img {
+    width: 35px;
+  }
+  .auth {
+    width: 100%;
+  }
+  button.kep-login-facebook.metro {
+    margin-top: 5px;
+    margin: 0px 20px;
+  }
+
+  button.kep-login-facebook.metro svg {
+    cursor: pointer;
+    position: relative;
+    right: 13px !important;
+    font-size: 37px !important;
+    bottom: 8px !important;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .auth {
+    width: 100% !important;
+  }
+  .register_row_col {
+    width: 100% !important;
+  }
+}
+
+
+@media only screen and (max-width : 380px) {
+  .modal-content {
+    z-index: 10000000 !important;
+    margin: auto;
+    border-radius: 12px !important;
+    border: none !important;
+    outline: none !important;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    background: none !important;
+}
+}

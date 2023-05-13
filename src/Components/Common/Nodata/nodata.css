@@ -1,0 +1,15 @@
+.noDataCont{
+    width: 90%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    margin: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 6px;
+}
+
+.noDataCont img{
+    width: 50%;
+   
+}

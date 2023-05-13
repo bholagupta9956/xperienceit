@@ -1,0 +1,16 @@
+.cstBtn button{
+    width: 100%;
+    background-color: var(--pink);
+    text-align: center;
+    border: none;
+    outline: none;
+    color: white;
+    margin: auto;
+    padding: 10px ;
+    border-radius: 3px;
+}
+
+.cstBtn {
+    display: flex;
+    justify-content: center;
+}

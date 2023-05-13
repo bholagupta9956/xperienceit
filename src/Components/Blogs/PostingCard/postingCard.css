@@ -1,0 +1,11 @@
+.pstCardPara{
+    font-family: "Poppins", sans-serif !important;
+    font-size: 13.5px !important;
+    color: var(--gray);
+}
+
+.pstCardPara span{
+    font-family: "Poppins", sans-serif !important;
+    font-size: 13.5px !important;
+    color: var(--gray);
+}

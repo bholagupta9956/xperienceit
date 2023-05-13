@@ -1,0 +1,21 @@
+.btn-catgory-book{
+background: linear-gradient(135deg,#eccf66,#c59402);
+    color: #fff;
+    padding: 4px 10px;
+   cursor: pointer;
+   border:none;
+   border-radius: 5px;
+   width: 40%;
+}
+.btn-catgory-book:hover{
+    color: #fff;
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+.seller_box2 {
+    position: relative;
+    top: 15px;
+}
+.btn-catgory-book {
+    width: 40%;
+}
+}

@@ -1,0 +1,114 @@
+.otpPage{
+    width: 100%;
+    margin-top: -25px;
+}
+span.signUpLogin {
+    position: relative;
+    top: 1px;
+}
+i.Fa-user {
+    position: relative;
+    top: 1px;
+}
+h6.RegPageSignUp {
+    text-align: right;
+    font-size: 16px;
+   
+    margin-top: -12px;
+    cursor:pointer;
+}
+.otp_input label{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.otp_input input{
+    margin: 4px 0px;
+   
+    padding: 10px 16px;
+    border: 2px solid rgb(212, 209, 209, 0.7);
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+}
+
+.otp_input input::placeholder{
+    font-size: 14px;
+}
+
+.otp_input{
+    width: 78%;
+  
+    margin: auto;
+    display: flex;
+    margin-top:6rem;
+    flex-direction: column;
+}
+
+
+
+.otp_footer{
+    width: 70%;
+    margin: auto;
+    margin: 5px auto;
+    margin-bottom: 15px;
+}
+
+.otp_footer_images img{
+    width: 38px;
+    cursor:pointer;
+}
+.otp_balloon img{
+    width: 90px;
+}
+
+
+
+.otp_footer h6{
+    text-align: center;
+}
+.otp_balloon{
+    position: absolute;
+    bottom: 0px;
+    left: 5%;
+}
+.otp_footer_images{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.OLogFor{
+    width:100%;
+   
+   
+}
+.OLog{
+    float: left;
+    width:49%;
+    background-color: aqua;
+}
+.OForg{
+    float: left;
+    width:49%;
+    text-align: right;
+    background-color: blue;
+}
+.RegPage{
+    cursor: pointer;
+    text-align: right;
+}
+
+@media only screen and (max-width: 360px){
+    .auth_balloon img {
+        width: 35px;
+    }
+  }

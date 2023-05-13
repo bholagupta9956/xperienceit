@@ -1,0 +1,36 @@
+.offer-section-slider button.owl-prev {
+  position: absolute;
+  left: -45px;
+  top: 40%;
+  cursor: pointer;
+}
+.offer-section-slider button.owl-next {
+  position: absolute;
+  right: -45px;
+  top: 40%;
+  cursor: pointer;
+}
+.offer-section-slider.common-container {
+  padding-top: 0px;
+}
+
+.offer-section-slider .package-col {
+  box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+  padding: 8px;
+  margin: 0px;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.offer-section-slider .package-col {
+  margin: 2px;
+}
+.Offer-slider .container-fluid {
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .offer-section-slider.common-container {
+    padding-top: 0px;
+   
+}
+}

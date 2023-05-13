@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Parisienne&family=Poppins:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  /* overflow-x: hidden; */
+}
+
+.modal-content{
+  margin: auto;
+  border-radius: 12px !important;
+  border: none !important;
+  outline: none !important;
+  background: none !important;
+ }
+
+
+:root {
+  --golden : #f9c841;
+  --pink : #fe6684;
+  --yellow : #e9b219;
+  --blue : #177ee7;
+  --gray : #707070;
+  --gray2 : #575757;
+  --black : rgb(20, 20, 20);
+  --dark-gray : #3b3839;
+  --borderColor : rgb(165, 157, 157 , 0.8);
+  --white : #ffff;
+  --parisienne :  'Parisienne', cursive;
+  --poppins :  'Poppins', sans-serif;
+  --pacifico :  'Pacifico', cursive;
+  --lightgray : rgb(168, 161, 161 , 0.6); 
+  --boxshadow2 : 1px 1px 3px rgba(218, 218, 218, 0.6) , -1px -1px 3px   rgba(218, 216, 216, 0.6);
+  --boxshadow : 1px 1px 3px rgba(204, 199, 199, 0.6) , -1px -1px 3px rgba(202, 201, 201, 0.6);
+}
+
+.app{
+  overflow: hidden;
+}
+
+.black{
+  color : "green"
+}
+
+.owl-dots span{
+  transform: scale(0.5);
+}

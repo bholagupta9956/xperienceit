@@ -1,0 +1,20 @@
+
+
+h2.shopbyRelatedPackages {
+    font-size: 18px!important;
+    width: 80%;
+}
+
+@media screen and (max-width: 600px) {
+    h2.shopbyRelatedPackages {
+        width: 96%!important;
+    }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+button.owl-prev {
+    margin-left: 15px!important;
+}
+button.owl-next {
+    margin-right: 15px!important;
+}
+}

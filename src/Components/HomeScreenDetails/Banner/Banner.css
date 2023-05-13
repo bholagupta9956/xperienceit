@@ -1,0 +1,82 @@
+.banners {
+  width: 100%;
+  height: 100%;
+  padding: 0px 1%;
+  z-index: 1;
+  border: none;
+ 
+}
+
+.banners button.sc-bdfBQB.khvUfi.rec.rec-arrow.rec.rec-arrow-left {
+  position: absolute !important;
+  left: 3.4% !important;
+  background: rgb(219, 213, 213, 0.7) !important;
+  z-index: 12 !important;
+}
+
+.banners button.sc-bdfBQB.eRmJbc.rec.rec-arrow.rec.rec-arrow-left {
+  position: absolute !important;
+  left: 3.4% !important;
+  background: rgb(219, 213, 213, 0.7) !important;
+  z-index: 12 !important;
+}
+
+.banners button.sc-bdfBQB.eRmJbc.rec.rec-arrow.rec.rec-arrow-right {
+  position: absolute !important;
+  right: 3.4% !important;
+  z-index: 12 !important;
+  background: rgb(219, 213, 213, 0.7) !important;
+}
+
+.banners button.sc-bdfBQB.khvUfi.rec.rec-arrow.rec.rec-arrow-right {
+  position: absolute !important;
+  right: 3.4% !important;
+  z-index: 12 !important;
+  background: rgb(219, 213, 213, 0.7) !important;
+}
+
+.banners button.sc-bdfBQB.buNJCv.rec.rec-arrow.rec.rec-arrow-left {
+  position: absolute;
+  left: 3.4% !important;
+  z-index: 12 !important;
+}
+
+.banners button.sc-bdfBQB.buPiXl.rec.rec-arrow.rec.rec-arrow-left {
+  position: absolute;
+  left: 3.4% !important;
+  z-index: 12 !important;
+}
+.banners button.sc-bdfBQB.buPiXl.rec.rec-arrow.rec.rec-arrow-right {
+  position: absolute;
+  right: 3.4% !important;
+}
+
+.banners button.sc-bdfBQB.buNJCv.rec.rec-arrow.rec.rec-arrow-right {
+  position: absolute;
+  right: 3.4% !important;
+}
+
+.card_info_box {
+  width: 80px !important;
+}
+.card_info_box h6 {
+  margin-left: 7px;
+}
+
+.bannercard_img img{
+  height:100%;
+  width:100%
+}
+
+
+@media only screen and (min-width: 360px) {
+  .card.border-dark.offerCard {
+    margin-top: 20px;
+}
+  
+}
+@media only screen and (max-width: 600px){
+  .banner .sc-eCstlR.bwgQCB.rec.rec-carousel {
+    height: 322px!important;
+  }
+}

@@ -1,0 +1,73 @@
+._trust_section {
+  margin: 30px 10px;
+  background: #fff;
+  padding: 10px;
+}
+._trust_section h4 {
+  font-size: 30px;
+  color: black;
+}
+._trust_section .small-div-line {
+  width: 100px;
+  margin: 5px auto;
+  height: 1px;
+  background: hotpink;
+}
+._trust_section ._main_content {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+._trust_section ._main_content ._single_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+  overflow: hidden;
+  
+}
+._trust_section ._main_content ._single_section img {
+  width: 150px;
+  height: 100px;
+}
+._trust_section ._main_content ._single_section .strong {
+  color: #000;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2;
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+.strong {
+  display: flex;
+  justify-content: center;
+}
+._trust_section ._main_content ._single_section .small {
+  color: gray;
+  font-size: 12px;
+  line-height: 1.2;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.small {
+  display: flex;
+  justify-content: center;
+}
+.img-cover-no-stretch {
+  width: 150px;
+  height: 100px;
+  
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  display: block;
+}
+.lazyload-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+}

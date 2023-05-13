@@ -1,0 +1,79 @@
+/* this is styling part of the offerspopup of the offers popup  */
+.offersPopup {
+  width: 105%;
+  margin-left: -2.5%;
+  position: relative;
+  background: white;
+  padding: 45px 23px 56px 0px;
+  display: flex;
+  border-top: 6px solid var(--pink);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.offersPopup_left {
+  width: 34%;
+}
+
+.offersPopup_left img {
+  width: 100%;
+}
+
+.offersPopup_right {
+  width: 68%;
+  margin-right: 6%;
+  margin-left: 2%;
+}
+
+.offersPopup_right h3 {
+  font-size: 20.4px;
+  color: rgb(56, 56, 56);
+  line-height: 32px;
+}
+
+.offersPopup_para {
+  margin: 20px 0px;
+}
+
+.offersPopup_para p {
+  font-size: 14px;
+  color: rgb(20, 20, 20);
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.offersPopup_btn {
+  margin-top: 22px;
+  width: 215px;
+  padding: 12px;
+  background: var(--pink);
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.offersPopup_girl {
+  position: absolute;
+  bottom: 0px;
+  right: 9%;
+}
+
+.offersPopup_girl img {
+  width: 140px;
+}
+
+.offersPopup_cut {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+}
+
+.offersPopup_cut img {
+  width: 12px;
+}
+
+
+

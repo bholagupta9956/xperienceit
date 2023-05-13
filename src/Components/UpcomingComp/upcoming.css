@@ -1,0 +1,44 @@
+.upcoming {
+  width: 90%;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px 0px;
+  margin: 20px auto;
+  margin-bottom: 40px;
+  min-height: 200px;
+}
+
+.upcomingCont {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.upcomingDte {
+  display: flex;
+  justify-content: space-between;
+}
+
+.upcomingDte h6 {
+  font-size: 12px;
+  margin-right: 6px;
+  color: grey;
+}
+
+.coman-img img {
+  width: 100%;
+}
+.all-pack-slider.inner-row-package .package-col {
+  margin-bottom: 20px;
+}
+.bokking-details {
+  background: linear-gradient(135deg, #eccf66, #c59402);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 4px 15px;
+
+  cursor: pointer;
+}
+.bokking-details:hover {
+  color: #fff;
+}

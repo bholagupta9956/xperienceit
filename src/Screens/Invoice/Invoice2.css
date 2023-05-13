@@ -1,0 +1,283 @@
+/* .invoiceContainer{
+    background-color: rgb(94, 73, 46);
+    min-height: 700px;
+} */
+.Invoice-box {
+  min-height: 700px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.Invoice-Logo {
+  height: 140px;
+  width: 140px;
+  padding: 10px;
+}
+.InvoceBill {
+  margin-left: 15px;
+  padding: 10px;
+  border-left: 3px solid #e39c07;
+}
+.InvoceBill h6 {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: 600;
+}
+.InvoceBill p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  color: black;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.InvoceBill p a {
+  color: rgb(11, 10, 10);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Invoice-Logo img {
+  height: 100%;
+  width: 100%;
+}
+.invoice-heading {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.invoice-content {
+  margin-right: -8px;
+  padding: 10px;
+  border-right: 3px solid #e39c07;
+}
+
+.invoice-content h4 {
+  /* text-align: right; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.invoice-content h6 {
+  text-align: right;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.invoice-content p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  text-align: right;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.invoice-content p a {
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Invoice-PackageDetails {
+  padding: 10px;
+  border-right: 3px solid #e39c07;
+  margin-right: 15px;
+  margin-top: 20px;
+  float: right;
+  width: 98%;
+  min-height: 120px;
+}
+.Invoice-PackageDetails h6 {
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Invoice-PackageDetails p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  text-align: right;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Invoice-PackageDetails p span {
+  font-weight: 600;
+  font-size: 14px;
+}
+.Invoice-Details {
+  margin-top: 20px;
+  padding: 5px;
+  border-left: 3px solid #e39c07;
+  margin-left: 15px;
+  float: left;
+  width: 98%;
+  min-height: 120px;
+}
+.Invoice-Details li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+ 
+}
+.Invoice-Details li p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  /* text-align: right; */
+  font-weight: 600;
+  text-align: left;
+  width:100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Invoice-Details span {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.invoice-all-details {
+  width: 96%;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.invoice-table thead tr th {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
+.invoice-table tbody tr td {
+  text-align: center;
+  font-size: 14px;
+}
+.invoice-table tbody tr th {
+  text-align: center;
+}
+
+.invoice-social-content {
+  width: 96%;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+.invoice-social-content p {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.invoice-social-content p a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.invoice-social-content-text {
+  width: 96%;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+.invoice-social-content-text li {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.invoice-social-content-text li p {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.invoice-social-content-text li p a {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+span.in-line {
+  font-size: 14px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.invoice-Social {
+  width: 96%;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+.invoice-Social h6 {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.invoice-Social li {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.invoice-Social li a {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.invoice-Social li a img {
+  width: 100%;
+  width: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.invoice-footer-text {
+  width: 96%;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+.invoice-footer-text h6 {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10px;
+}
+.invoice-table thead {
+  background-color: #e39c07 !important;
+}
+
+
+@media only screen and (max-width : 1000px){
+  .invoiceContainer{
+    width: 100%;
+  }
+
+  .Invoice-box {
+    width: 100%;
+}
+}
+
+
+@media only screen and (max-width : 500px){
+  .invoiceContainer {
+    width: 104%;
+    margin-left: -2%;
+    margin-right: 0px;
+  }
+}

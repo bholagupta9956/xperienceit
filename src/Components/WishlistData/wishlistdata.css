@@ -1,0 +1,6 @@
+
+@media only screen and (max-width: 600px) {
+.container-fluid.whishlistRow {
+    margin-bottom: 50px;
+}
+}

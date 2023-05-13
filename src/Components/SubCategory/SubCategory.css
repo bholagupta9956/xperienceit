@@ -1,0 +1,226 @@
+@font-face {
+    font-family: "NeuvaStd";
+    src: local("fonts"), url("../../fonts//NuevaStd-Bold.otf") format("truetype");
+    font-weight: medium;
+  }
+  .subCategoryTaskbar {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    overflow: hidden;
+    margin-bottom: 12%;
+  }
+  
+  .subCategoryTaskbar h6 {
+    color: var(--gray);
+    margin: 8px 0px;
+    font-size: 20px;
+  }
+  
+  /* .dinner_taskbar_box {
+    width: 100%;
+    margin: auto;
+    margin: 10px 0px;
+    position: relative;
+  
+    padding-top: 11px;
+    box-shadow: var(--boxshadow);
+  } */
+  
+  .SubCategory_gifts {
+    width: 97%;
+    margin: auto;
+    margin: 30px;
+    padding: 25px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    box-shadow: var(--boxshadow);
+    margin-left: 1.4%;
+  }
+  .card_img{
+    height: 260px!important;
+    margin-bottom: 10px;
+  }
+  .subCategoryCard {
+    width: 262px;
+    height: 390px;
+    border-radius: 8px;
+    padding: 7px 7px 0px 7px;
+    box-shadow: var(--boxshadow);
+    position: relative;
+    margin: 10px;
+    margin-left: 21.3px;
+    margin-bottom: 45px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s !important;
+  }
+  .card_info_btn {
+    position: absolute;
+    border-top-left-radius: 8px;
+    right: 0px;
+    bottom: 0px;
+    color: white;
+    padding: 6px 20px;
+    font-size: 14px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: -2px;
+    margin-right: 0px;
+    border-bottom-right-radius: 8px;
+    background: linear-gradient(135deg, #eccf66, #c59402);
+  }
+  subCategoryCard.aos-init.aos-animate {
+    margin-left: 5px!important;
+}
+  .subCategoryCard:hover {
+    transform: scale(1.05) !important;
+  }
+  
+  .subCategoryCard img {
+    width: 100%;
+    margin-top: 17px;
+  }
+  
+  .subCategoryCard_box {
+    width: 100%;
+    padding: 0px 2%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  .subCategory_box_row1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .subCategory_box_row1 h6 {
+    font-size: 14px;
+    color: var(--gray2);
+    margin-top: -0.1px;
+  }
+  
+  .subCategory_box_row1_star {
+    background: #ff9212;
+    display: flex;
+    padding: 5px 5px;
+    border-radius: 3px;
+    height: 24px;
+    align-items: center;
+    margin-top: -3px;
+  }
+  
+  .subCategory_box_row1_star span {
+    color: white;
+    font-size: 13px;
+    margin-top: -2px;
+  }
+  
+  .subCategory_box_row1_star img {
+    width: 14px;
+    margin-left: 5px;
+    margin-top: -3px;
+  }
+  
+  .subCategoryCard .card_info_2 {
+    margin-top: 14px;
+  }
+  
+  .subCategory_box_row2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .subCategory_box_row2 li span {
+    font-size: 18px;
+    font-family: fantasy;
+    font-weight: 500;
+    color: var(--pink);
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .subCategory_box_row2 .pink_text {
+    color: var(--pink);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .subCategory_box_row2 li h5 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  
+  .subCategory_box_row2 .text2 {
+    list-style: none;
+    display: flex;
+    margin-left: 12px;
+    color: var(--gray);
+  }
+  
+  .subCategory_box_row2 .text2 span {
+    color: var(--gray);
+    font-size: 15px;
+    margin-top: 4px;
+  }
+  
+  .subCategory_box_row2 .text2 h6 {
+    font-size: 12px;
+    text-decoration: line-through;
+    margin-left: 8px;
+  }
+  
+  .subCategory_box_row2 .text3 {
+    color: green;
+    margin-left: 12px;
+    font-size: 13px;
+  }
+  
+  .subCategoryCard .card_info_btn {
+    position: absolute;
+    border-top-left-radius: 8px;
+    right: 0px;
+    bottom: 0px;
+    color: white;
+    padding: 6px 20px;
+    font-size: 14px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: -2px;
+    margin-right: 0px;
+    border-bottom-right-radius: 8px;
+    background: linear-gradient(135deg, #eccf66, #c59402);
+  }
+  
+  @media only screen and (max-width: 820px) {
+    .SubCategory_gifts {
+      width: 90%;
+      margin-left: 5%;
+    }
+    .subCategoryCard {
+      margin-left: 18px;
+      width: 245px;
+      margin-right: -1px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .SubCategory_gifts {
+      width: 88%;
+      margin-left: 6%;
+      margin-bottom: 8%;
+    }
+    .subCategoryCard {
+      width: 267px;
+      margin-left: 7%;
+    }
+  }
+  

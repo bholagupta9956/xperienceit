@@ -1,0 +1,36 @@
+button.kep-login-facebook.metro:hover {
+  background-color: white;
+}
+button.kep-login-facebook.metro {
+  border: none;
+  height: 50px;
+  width: 50px;
+  color: #3b5998;
+  background-color: white;
+  cursor: pointer;
+}
+button.kep-login-facebook.metro svg {
+    cursor: pointer;
+  position: relative;
+  right: 18px;
+  font-size: 36px;
+  bottom: 10px;
+}
+.googleLogin button span {
+  display: none;
+}
+.googleLogin button {
+  border: none;
+  background: none;
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+}
+.googleLogin button:hover{
+    background-color: white!important;
+}
+img.googleIcon {
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+}

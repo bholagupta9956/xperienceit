@@ -1,0 +1,59 @@
+.mrgFormCont{
+    font-family: 'Poppins', sans-serif !important;
+    position: relative;
+}
+.mrgLogTxt{
+    font-size: 15px;
+    color: var(--blue);
+    cursor: pointer;
+    padding-left: 8px;
+}
+
+.mrgLogTxt:hover{
+    text-decoration: underline;
+}
+
+.mrgLgnForm{
+    height: 80%;
+    justify-content: center;
+}
+
+.cutoption{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.mrgLeftCol{
+    background-color: #f1e2db;
+}
+
+.enquiryBtn{
+    width: 160px  !important;
+    background-color: var(--pink) !important;
+    color: white !important;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.mrgCheck{
+    border-radius: 2px !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.mrgLabel{
+    margin-left: 6px;
+}
+
+.mrgCheck:checked{
+    background-color: green !important;
+    border: 1px solid green !important;
+}
+
+.mrgFormError{
+    color: red;
+    font-size: 14px;
+}

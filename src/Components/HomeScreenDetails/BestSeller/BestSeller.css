@@ -1,0 +1,450 @@
+/* this is the styling part related to best seller  */
+
+.bestseller{
+    border: 2px solid redm;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    /* padding: 25px  2.2% 20px 2.2%; */
+    border-top-left-radius: 23px;
+    margin-bottom: 30px;
+    box-shadow :  0 8px 12px -5px rgba(160, 157, 157, 0.6) !important;
+}
+
+.seller1{
+    width: 105%;
+    margin-left: -2.5%;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.bestseller_heading{
+    padding: 12px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.bestseller_container{
+    width: 100%;
+    background: rgb(240, 241, 241);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 330px;
+    position: relative;
+}
+
+.bestseller_heading h4{
+    font-size: 33px;
+    font-weight: 600;
+    color: #1c1956;
+    font-family: "NeuvaStd";
+}
+
+.bestseller_box1{
+    display: flex;
+    width: 28%;
+    position: relative;
+    bottom: -15px;
+}
+
+.bestseller_box1 img{
+    width: 100%;
+    margin-bottom: 19px;
+}
+
+.bestseller_box1 button{
+    position: absolute ;
+    bottom:  0;
+    left: -2px;
+    width: 100.5% ;
+    background: var(--pink);
+    color: white;
+    font-size: 20px;
+    padding: 7.5px 6px;
+    border: none;
+    font-weight: 300 !important;
+    outline: none;
+    border-radius: 5px;
+}
+
+.bestseller_box2{
+    margin-left: 2%;
+    width: 38%;
+    height: 100%;
+    position: relative;
+}
+
+.bestseller_box2 img{
+    position:  absolute;
+    bottom: 0;
+    width: 70%;
+    height: 90%;
+    z-index: 3;
+}
+
+
+.bestseller_box2_box{
+    z-index: 1;
+    width: 77%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 50%;
+    background: var(--blue);
+    color: white;
+    opacity: 0.8;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.bestseller_box2_box div{
+    margin-right: 12%;
+}
+
+.bestseller_box2_box div h3{
+    font-size: 40px;
+}
+
+.bestseller_box2_box div h5{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+}
+
+.bestseller_box3{
+    margin-left: 5%;
+    height: 100%;
+    width: 25%;
+    position: relative;
+    display: flex;
+}
+
+.bestseller_box3 img{
+    position: absolute;
+    bottom: -58px;
+    height: 100%;
+    width: 100%;
+
+}
+
+.bestseller_box3 button{
+    width: 100%;
+    position: absolute;
+    bottom: 0px ;
+    right: 0px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    border-radius: 6px;
+    padding: 8px 6px;
+    color: white;
+    background: rgb(255, 182, 72);
+}
+.bestseller_heading h4 span{ font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: var(--pink);
+}
+
+.card{
+    transition: 0.1s;
+    width: 94%;
+    overflow: hidden;
+    border: none;
+    margin: 15px auto;
+    box-shadow: var(--boxshadow);
+    padding: 5px 5px;
+}  
+
+.card_img{
+	position: relative;
+}
+.card_img::before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 0;
+	height: 0;
+	background: rgba(255,255,255,.2);
+	border-radius: 100%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+.card_img:hover::before {
+	-webkit-animation: circle .75s;
+	animation: circle .75s;
+}
+
+@-webkit-keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
+}
+@keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
+}
+
+.card:hover{
+   transform: scale(1.05) !important;
+}
+
+.card_img{
+    width: 100%;
+}
+
+.card_img img{
+    width: 100%;
+    transition: 0.3s;
+}
+
+
+
+.seller1 button.sc-bdfBQB.eRmJbc.rec.rec-arrow.rec.rec-arrow-left {
+    position: absolute !important;
+    left: 4% !important;
+    background: rgb(219, 213, 213 , 0.7) !important;
+    z-index: 12 !important;
+}
+
+.seller1 button.sc-bdfBQB.buPiXl.rec.rec-arrow.rec.rec-arrow-left {
+    position: absolute;
+    z-index: 5;
+    left: 4%;
+    background: white;
+    opacity: 0.7;
+}
+
+.seller1 button.sc-bdfBQB.buNJCv.rec.rec-arrow.rec.rec-arrow-left {
+    position: absolute;
+    z-index: 5;
+    background: #ccc5c5;
+    opacity: 0.7;
+    left: 4%;
+}
+
+.seller1 button.sc-bdfBQB.buPiXl.rec.rec-arrow.rec.rec-arrow-right {
+    position: absolute;
+    z-index: 5;
+    right: 4.1%;
+    background: white;
+    opacity: 0.7;
+}
+
+.seller1 button.sc-bdfBQB.buNJCv.rec.rec-arrow.rec.rec-arrow-right {
+    position: absolute;
+    z-index: 5;
+    right: 4.1%;
+    background: white;
+    opacity: 0.7;
+}
+
+
+.seller1 button.sc-bdfBQB.eRmJbc.rec.rec-arrow.rec.rec-arrow-right {
+    position: absolute !important;
+    right: 4.1% !important;
+    z-index: 12 !important;
+    background: rgb(219, 213, 213 , 0.7) !important;
+}
+
+.seller1 button.sc-bdfBQB.khvUfi.rec.rec-arrow.rec.rec-arrow-right{
+    position: absolute !important;
+    right: 4.1% !important;
+    z-index: 12 !important;
+    background: rgb(219, 213, 213 , 0.7) !important;
+}
+.seller1 button.sc-bdfBQB.khvUfi.rec.rec-arrow.rec.rec-arrow-left{
+    position: absolute !important;
+    left: 4% !important;
+    background: rgb(219, 213, 213 , 0.7) !important;
+    z-index: 12 !important;
+}
+
+.seller1 button.sc-bdfBQB.buPiXl.rec.rec-arrow.rec.rec-arrow-left {
+    position: absolute;
+    z-index: 5;
+    left: 4%;
+    background: white;
+    opacity: 0.7;
+}
+.card_info {
+    width: 100%;
+    padding: 12px 16px 9px 16px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card_info_1{
+    display: flex;
+    width: 100%;
+   
+    flex-direction: column;
+   
+}
+
+.card_info_1 h5{
+    font-size: 16px;
+    color: var(--gray);
+    font-weight: 500;
+}
+
+.card_info_1 h6{
+    font-size: 17px;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.card_info_1 span{
+    font-size: 12px;
+   
+    color: green;
+    margin-top: -5px;
+}
+
+
+
+.card_info_2{
+   width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-bottom: 4px;
+    justify-content: center;
+}
+
+.card_info_box {
+    background: rgb(255, 153, 0);
+    display: flex;
+    color: white;
+    align-items: center;
+    width: 57px;
+    height: 28px;
+    padding: auto 9px;
+    border-radius: 3px;
+    justify-content: space-around;
+    margin-bottom: 9px;
+}
+.card_info_box h6{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 8px;
+}
+
+.card_info_2 span{
+    font-size: 12px;
+    color: var(--gray2);
+}
+.card_info_2 li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_info_2 li h5{
+    color: var(--gray2);
+    font-size: 14px;
+    font-weight: 600;
+ margin-bottom: -0.1px;
+    text-decoration: line-through;
+}
+
+
+
+.card_info_2 li span{
+   font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 8px;
+    color: var(--gray2);
+    margin-bottom: -2.5px;
+}
+
+.card_info_2 .pink_text {
+    color: var(--pink);
+    margin-left: -60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_info_2 .pink_text span{
+    font-size: 26px;
+    font-family: fantasy;
+    font-weight: 500;
+    color: var(--pink);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card_info_2 .pink_text h4{
+    font-size: 17px;
+    margin-bottom: -2px;
+    font-weight: 600;
+}
+
+.card_info_2 .card_info_btn{
+    color: white;
+    padding: 10px 25px;
+    font-size: 12px;
+    border: none;
+    margin-bottom: -9px;
+    margin-right: -2px;
+    background: linear-gradient(135deg ,#ECCF66 ,#C59402);
+}
+
+/* adding media query to the project */
+
+@media only screen and (max-width : 1025px){
+    .bestseller_box1{
+        margin-top: 90px;
+    }
+}
+
+@media only screen and (max-width : 768px){
+    .bestseller_container {
+        flex-direction: column;
+        height: 900px;
+    }
+
+    .bestseller_box1 , .bestseller_box2 , .bestseller_box3{
+        width: 90%;
+        height: 300px;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+
+    .bestseller_box3 img{
+        width: 100%;
+        transform: scale(1.3);
+    }
+    
+}

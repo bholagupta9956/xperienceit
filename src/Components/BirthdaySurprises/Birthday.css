@@ -1,0 +1,371 @@
+@font-face {
+  font-family: "NeuvaStd";
+  src: local("fonts"), url("../../fonts//NuevaStd-Bold.otf") format("truetype");
+  font-weight: medium;
+}
+
+.banner {
+  width: 100%;
+  z-index: -1;
+  box-shadow: 0px 2px 8px rgb(177, 177, 177);
+}
+
+.banner_img {
+  width: 100%;
+}
+
+.banner_img img {
+  width: 100%;
+  position: relative;
+}
+
+.banner_text {
+  position: absolute;
+  left: 6.6%;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.banner_text h2 {
+  color: white;
+  font-size: 60px;
+  font-family: "NeuvaStd";
+  text-shadow: 1px 1px 5px rgb(153, 151, 151);
+}
+
+.banner_text h3 {
+  text-align: left;
+  font-family: var(--parisienne);
+  color: white;
+  font-weight: 300;
+  font-size: 50px;
+}
+
+.banner_text button {
+  width: 122px;
+  text-transform: capitalize;
+  font-size: 13px;
+  padding: 10px;
+  border-radius: 4px;
+  background: rgb(247, 247, 247);
+  margin-top: 15px;
+}
+
+/* here we are styling the birthday taskbar  */
+
+.birthdayTaskbar {
+  width: 96%;
+  margin: auto;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.birthdayTaskbar h6 {
+  color: var(--gray);
+  margin: 8px 0px;
+}
+
+.birthday_taskbar_box {
+  width: 100%;
+  margin: auto;
+
+  margin: 15px 0px;
+  position: relative;
+  padding: 0px 20px;
+  padding-top: 11px;
+  box-shadow: var(--boxshadow);
+}
+
+.birthday_taskbar_box_row1 {
+  display: flex;
+  align-items: center;
+}
+
+.birthday_taskbar_box_row1 h3 {
+  font-size: 23px;
+  color: rgb(48, 47, 47);
+}
+
+.birthday_taskbar_box_row1 h6 {
+  margin: -10px 16px 0px 16px;
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(216, 210, 210);
+}
+
+.birthday_taskbar_box_row1 h5 {
+  font-size: 17px;
+}
+
+.birthday_taskbar_box_row2 {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+  margin-bottom: -1px;
+}
+
+.birthday_taskbar_box_row2 h5 {
+  font-size: 16px;
+  margin-right: 29px;
+}
+
+.birthday_taskbar_box_row2 span {
+  margin-right: 40px;
+  font-size: 15px;
+  color: var(--gray);
+  padding: 0px 8px;
+  padding-bottom: 8px;
+}
+
+.birthday_taskbar_box_row2 .first {
+  border-bottom: 2.5px solid var(--pink);
+}
+
+.birthday_taskbar_box_row1_btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1%;
+  width: 120px;
+  padding: 9px;
+  font-size: 13px;
+  color: white;
+  background: var(--pink);
+  border-radius: 4px;
+  border: none;
+}
+
+.birthday_gifts {
+  width: 100%;
+  margin: auto;
+
+
+  margin: 30px 30px;
+  padding: 25px 0px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  border-top-left-radius: 17px;
+  
+  box-shadow: var(--boxshadow);
+}
+
+/* from here we are styling the card  */
+
+.birthdayCard {
+  width: 330px;
+  border-radius: 8px;
+  padding: 7px 7px 0px 7px;
+  box-shadow: var(--boxshadow);
+  position: relative;
+  margin:0px 15px;
+  margin-bottom: 45px;
+ 
+}
+
+.birthdayCard {
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s !important;
+}
+
+.birthdayCard:hover {
+  transform: scale(1.05) !important;
+}
+
+.birthday::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  display: block;
+  content: "";
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.birthday:hover::before {
+  -webkit-animation: circle 0.75s;
+  animation: circle 0.75s;
+}
+
+.birthdayCard img {
+  width: 100%;
+}
+
+.birthdayCard_box {
+  width: 100%;
+  padding: 0px 2%;
+  margin: auto;
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+}
+
+.birthday_box_row1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.birthday_box_row1 h6 {
+  font-size: 14px;
+  color: var(--gray2);
+  margin-top: -0.1px;
+}
+
+.birthday_box_row1_star {
+  background: #ff9212;
+  display: flex;
+  padding: 5px 5px;
+  border-radius: 3px;
+  height: 24px;
+  align-items: center;
+  margin-top: -3px;
+}
+
+.birthday_box_row1_star span {
+  color: white;
+  font-size: 13px;
+  margin-top: -2px;
+}
+
+.birthday_box_row1_star img {
+  width: 14px;
+  margin-left: 5px;
+  margin-top: -3px;
+}
+
+.birthdayCard .card_info_2 {
+  margin-top: 14px;
+}
+.birthday_box_row2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.birthday_box_row2 li span {
+  font-size: 25px;
+  font-family: fantasy;
+  font-weight: 500;
+  color: var(--pink);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.birthday_box_row2 .pink_text {
+  color: var(--pink);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.birthday_box_row2 li h5 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 7px;
+  margin-top: 5px;
+}
+
+.birthday_box_row2 .text2 {
+  list-style: none;
+  display: flex;
+  margin-left: 12px;
+  color: var(--gray);
+}
+
+.birthday_box_row2 .text2 span {
+  color: var(--gray);
+  font-size: 15px;
+  margin-top: 4px;
+}
+
+.birthday_box_row2 .text2 h6 {
+  font-size: 12px;
+  text-decoration: line-through;
+  margin-left: 8px;
+}
+
+.birthday_box_row2 .text3 {
+  color: green;
+  margin-left: 12px;
+  font-size: 13px;
+}
+
+.birthdayCard .card_info_btn {
+  position: absolute;
+  border-top-left-radius: 7px;
+  right: 0px;
+  bottom: 0px;
+  color: white;
+  padding: 10px 25px;
+  font-size: 16px;
+  border: none;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  border-bottom-right-radius: 7px;
+  background: linear-gradient(135deg, #eccf66, #c59402);
+}
+
+/* now we are styling the birthday paragraph */
+.birthday_para1 {
+  margin-bottom: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.birthday_para2 {
+  overflow: hidden;
+}
+
+.birthday_para1 p {
+  color: var(--gray);
+  margin: 15px 0px;
+  line-height: 26px;
+}
+
+.birthday_para2 h4 {
+  color: var(--pink);
+  font-size: 20px;
+}
+
+.birthday_para2 p {
+  color: var(--gray);
+  margin: 15px 0px;
+  line-height: 25px;
+}
+
+.birthday_para1 {
+  overflow: hidden;
+}
+
+.birthday_para2 {
+  overflow: hidden;
+}
+
+.birthday_gifts {
+  overflow: hidden;
+}
+
+/* adding media query here */
+
+@media only screen and (max-width: 1025px) {
+  .banner_text h2 {
+    font-size: 48px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    .birthday_para1{
+      padding: 8px 25px;
+    }
+
+    .birthday_para2{
+      padding: 8px 25px;
+    }
+}

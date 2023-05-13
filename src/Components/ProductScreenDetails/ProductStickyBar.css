@@ -1,0 +1,30 @@
+.product_Sticky_contant li a{
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+.productStickyBar{
+    background-color: white;
+   overflow: hidden;
+    width: 100%;
+    
+}
+nav.navbar.navbar-expand-md.navbar-light.fixed-bottom {
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+span.stickyPackagePrice {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10%;
+}
+@media only screen and (max-width: 600px) {
+    .productStickyBar{
+        display: none;
+    }
+  }
+  @media (min-width: 601px) and (max-width: 991px) {
+    .productStickyBar{
+        display: none;
+    }
+  }

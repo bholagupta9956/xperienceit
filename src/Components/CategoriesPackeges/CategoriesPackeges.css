@@ -1,0 +1,211 @@
+@font-face {
+  font-family: "NeuvaStd";
+  src: local("fonts"), url("../../fonts//NuevaStd-Bold.otf") format("truetype");
+  font-weight: medium;
+}
+.categoryTaskbar {
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  overflow: hidden;
+  margin-bottom: 12%;
+}
+
+.categoryTaskbar h6 {
+  color: var(--gray);
+  margin: 8px 0px;
+  font-size: 20px;
+}
+
+/* .dinner_taskbar_box {
+  width: 100%;
+  margin: auto;
+  margin: 10px 0px;
+  position: relative;
+
+  padding-top: 11px;
+  box-shadow: var(--boxshadow);
+} */
+
+.category_gifts {
+  width: 100%;
+  margin: auto;
+ 
+  padding: 25px 0px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  box-shadow: var(--boxshadow);
+  
+}
+
+.categoryCard {
+  width: 260px;
+  height: 370px;
+  border-radius: 8px;
+  padding: 7px 7px 0px 7px;
+  box-shadow: var(--boxshadow);
+  position: relative;
+ 
+ 
+  margin-bottom: 45px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s !important;
+}
+.categoryCard:hover {
+  transform: scale(1.05) !important;
+}
+
+
+.catg_img{
+height: 250px!important;
+
+}
+
+.categoryCard_box {
+  width: 100%;
+  padding: 0px 2%;
+  margin: auto;
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+}
+.category_box_row1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.category_box_row1 h6 {
+  font-size: 14px;
+  color: var(--gray2);
+  margin-top: -0.1px;
+}
+
+.category_box_row1_star {
+  background: #ff9212;
+  display: flex;
+  padding: 5px 5px;
+  border-radius: 3px;
+  height: 24px;
+  align-items: center;
+  margin-top: -3px;
+}
+
+.category_box_row1_star span {
+  color: white;
+  font-size: 13px;
+  margin-top: -2px;
+}
+
+.category_box_row1_star img {
+  width: 14px;
+  margin-left: 5px;
+  margin-top: -3px;
+}
+
+.categoryCard .card_info_2 {
+  margin-top: 14px;
+}
+
+.category_box_row2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.category_box_row2 li span {
+  font-size: 18px;
+  font-family: fantasy;
+  font-weight: 500;
+  color: var(--pink);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.category_box_row2 .pink_text {
+  color: var(--pink);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.category_box_row2 li h5 {
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.category_box_row2 .text2 {
+  list-style: none;
+  display: flex;
+  margin-left: 12px;
+  color: var(--gray);
+}
+
+.category_box_row2 .text2 span {
+  color: var(--gray);
+  font-size: 15px;
+  margin-top: 4px;
+}
+
+.category_box_row2 .text2 h6 {
+  font-size: 12px;
+  text-decoration: line-through;
+  margin-left: 8px;
+}
+
+.category_box_row2 .text3 {
+  color: green;
+  margin-left: 12px;
+  font-size: 13px;
+}
+
+.categoryCard .card_info_btn {
+  position: absolute;
+  border-top-left-radius: 8px;
+  right: 0px;
+  bottom: 0px;
+  color: white;
+  padding: 6px 20px;
+  font-size: 14px;
+  border: none;
+  z-index: 10;
+  margin-top: 10px;
+  margin-bottom: -2px;
+  margin-right: 0px;
+  border-bottom-right-radius: 8px;
+  background: linear-gradient(135deg, #eccf66, #c59402);
+}
+
+@media only screen and (min-width: 820px)  {
+  .category_gifts {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .categoryCard {
+    
+    width: 300px;
+    margin-left: 35px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .category_gifts {
+    width: 88%;
+    margin-left: 6%;
+    margin-bottom: 8%;
+  }
+  .categoryCard {
+    width: 267px;
+    margin-left: 6%;
+  }
+}
+@media only screen and (max-width: 360px){
+  .categoryCard{
+    margin-left: 7.5%;
+  }
+}
